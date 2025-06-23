@@ -1,3 +1,9 @@
+/* Nama File : MGaris.java
+ * Deskripsi : Main class untuk menggunakan class Garis
+ * Pembuat   : Saskia Putri Paramitha
+ * Tanggal   : Kamis, 23 Feb 2025
+ */
+
 public class MBangunDatar {
     public static void main(String[] args){
 
