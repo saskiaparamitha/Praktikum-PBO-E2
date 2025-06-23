@@ -43,4 +43,15 @@ class BangunDatarGenerik<T extends BangunDatar> {
         }
         return total;
     }
+
+    public int getJumlahBangun() {
+        return jumlahBangun;
+    }
+    
+    public T getBangun(int indeks) {
+        if (indeks >= 0 && indeks < jumlahBangun) {
+            return kumpulanBangun[indeks];
+        }
+        return null;
+    }
 }
